@@ -6,7 +6,7 @@ export default function Table({ finalArr }) {
     finalArr[0].annualInvestment;
 
   return (
-    <table id="result">
+    <table id="result" className="">
       <thead>
         <tr>
           <td>Year</td>
